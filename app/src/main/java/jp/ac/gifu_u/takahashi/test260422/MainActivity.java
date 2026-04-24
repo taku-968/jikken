@@ -24,7 +24,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             return insets;
         });
 
-        Button b = (Button) findViewById(R.id.button);
+        Button b = findViewById(R.id.button);
         b.setOnClickListener(this);
 
     }
