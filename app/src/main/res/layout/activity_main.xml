@@ -14,14 +14,17 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.405" />
 
     <Button
         android:id="@+id/button"
-        android:layout_width="87dp"
-        android:layout_height="40dp"
-        android:text="終了"
-        tools:layout_editor_absoluteX="25dp"
-        tools:layout_editor_absoluteY="60dp" />
+        android:layout_width="150dp"
+        android:layout_height="68dp"
+        android:layout_marginStart="52dp"
+        android:layout_marginTop="60dp"
+        android:text="@string/end"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
